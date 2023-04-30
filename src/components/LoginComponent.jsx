@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { RegisterAPI } from "../api/AuthAPI";
 import LinkedinLogo from "../assets/logo.svg";
 import { useNavigate } from "react-router-dom";
-import "../Sass/LoginComponent.scss";
+// import "../Sass/LoginComponent.scss";
 // import { toast } from "react-toastify";
 
 export default function LoginComponet() {
@@ -58,6 +58,13 @@ export default function LoginComponet() {
           </span>
         </p>
       </div>
+      <h1 className="text-3xl font-bold underline bg-red-700">
+      Hello world!
+    </h1>
+
+    <div>
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">sdfsfdf</button>
+    </div>
     </div>
   );
 }
