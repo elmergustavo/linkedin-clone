@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { RegisterAPI } from "../api/AuthAPI";
-import LinkedinLogo from "../assets/linkedinLogo.png";
+import LinkedinLogo from "../assets/logo.svg";
 import { useNavigate } from "react-router-dom";
 import "../Sass/LoginComponent.scss";
 // import { toast } from "react-toastify";
@@ -21,7 +21,7 @@ export default function LoginComponet() {
   };
   return (
     <div className="login-wrapper">
-      <img src={LinkedinLogo} className="linkedinLogo" />
+      <img src={LinkedinLogo} className="linkedinLogo " />
 
       <div className="login-wrapper-inner">
         <h1 className="heading">Sign in</h1>
